@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C63A64151E5440DF00D014D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C63A64141E5440DF00D014D5 /* main.m */; };
+		C63A64181E5440DF00D014D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C63A64171E5440DF00D014D5 /* AppDelegate.m */; };
+		C63A641B1E5440DF00D014D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C63A641A1E5440DF00D014D5 /* ViewController.m */; };
+		C63A641E1E5440DF00D014D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C63A641C1E5440DF00D014D5 /* Main.storyboard */; };
+		C63A64201E5440DF00D014D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C63A641F1E5440DF00D014D5 /* Assets.xcassets */; };
+		C63A64231E5440DF00D014D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C63A64211E5440DF00D014D5 /* LaunchScreen.storyboard */; };
+		C63A642E1E5440E000D014D5 /* TempToolDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C63A642D1E5440E000D014D5 /* TempToolDemoTests.m */; };
+		C63A64391E5440E000D014D5 /* TempToolDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C63A64381E5440E000D014D5 /* TempToolDemoUITests.m */; };
+		C63A64871E54428400D014D5 /* UIButton+BackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C63A644C1E54428400D014D5 /* UIButton+BackgroundColor.m */; };
+		C63A64881E54428400D014D5 /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = C63A644E1E54428400D014D5 /* UIButton+Block.m */; };
+		C63A64891E54428400D014D5 /* UIButton+CountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = C63A64501E54428400D014D5 /* UIButton+CountDown.m */; };
+		C63A648A1E54428400D014D5 /* UIButton+Indicator.m in Sources */ = {isa = PBXBuildFile; fileRef = C63A64521E54428400D014D5 /* UIButton+Indicator.m */; };
+		C63A648B1E54428400D014D5 /* UIButton+Submitting.m in Sources */ = {isa = PBXBuildFile; fileRef = C63A64541E54428400D014D5 /* UIButton+Submitting.m */; };
+		C63A648C1E54428400D014D5 /* UIDevice+Hardware.m in Sources */ = {isa = PBXBuildFile; fileRef = C63A64571E54428400D014D5 /* UIDevice+Hardware.m */; };
+		C63A648D1E54428400D014D5 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = C63A645A1E54428400D014D5 /* UIImage+Alpha.m */; };
+		C63A648E1E54428400D014D5 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = C63A645C1E54428400D014D5 /* UIImage+animatedGIF.m */; };
+		C63A648F1E54428400D014D5 /* UIImage+Capture.m in Sources */ = {isa = PBXBuildFile; fileRef = C63A645E1E54428400D014D5 /* UIImage+Capture.m */; };
+		C63A64901E54428400D014D5 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = C63A64601E54428400D014D5 /* UIImage+Color.m */; };
+		C63A64911E54428400D014D5 /* UIImage+FileName.m in Sources */ = {isa = PBXBuildFile; fileRef = C63A64621E54428400D014D5 /* UIImage+FileName.m */; };
+		C63A64921E54428400D014D5 /* UIImage+FX.m in Sources */ = {isa = PBXBuildFile; fileRef = C63A64641E54428400D014D5 /* UIImage+FX.m */; };
+		C63A64931E54428400D014D5 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = C63A64661E54428400D014D5 /* UIImage+GIF.m */; };
+		C63A64941E54428400D014D5 /* UIImage+Merge.m in Sources */ = {isa = PBXBuildFile; fileRef = C63A64681E54428400D014D5 /* UIImage+Merge.m */; };
+		C63A64951E54428400D014D5 /* UIImage+RemoteSize.m in Sources */ = {isa = PBXBuildFile; fileRef = C63A646A1E54428400D014D5 /* UIImage+RemoteSize.m */; };
+		C63A64961E54428400D014D5 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = C63A646C1E54428400D014D5 /* UIImage+RoundedCorner.m */; };
+		C63A64971E54428400D014D5 /* UITextField+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = C63A646F1E54428400D014D5 /* UITextField+Blocks.m */; };
+		C63A64981E54428400D014D5 /* UITextView+PlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = C63A64721E54428400D014D5 /* UITextView+PlaceHolder.m */; };
+		C63A64991E54428400D014D5 /* UIView+BlockGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = C63A64751E54428400D014D5 /* UIView+BlockGesture.m */; };
+		C63A649A1E54428400D014D5 /* UIView+Constraints.m in Sources */ = {isa = PBXBuildFile; fileRef = C63A64771E54428400D014D5 /* UIView+Constraints.m */; };
+		C63A649B1E54428400D014D5 /* UIView+Find.m in Sources */ = {isa = PBXBuildFile; fileRef = C63A64791E54428400D014D5 /* UIView+Find.m */; };
+		C63A649C1E54428400D014D5 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = C63A647B1E54428400D014D5 /* UIView+Frame.m */; };
+		C63A649D1E54428400D014D5 /* UIView+Nib.m in Sources */ = {isa = PBXBuildFile; fileRef = C63A647D1E54428400D014D5 /* UIView+Nib.m */; };
+		C63A649E1E54428400D014D5 /* UIView+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = C63A647F1E54428400D014D5 /* UIView+Screenshot.m */; };
+		C63A649F1E54428400D014D5 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = C63A64811E54428400D014D5 /* UIView+Toast.m */; };
+		C63A64A01E54428400D014D5 /* UIViewController+MJPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C63A64841E54428400D014D5 /* UIViewController+MJPopupViewController.m */; };
+		C63A64A11E54428400D014D5 /* UIViewController+TopBarMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = C63A64861E54428400D014D5 /* UIViewController+TopBarMessage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C63A642A1E5440E000D014D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C63A64081E5440DF00D014D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C63A640F1E5440DF00D014D5;
+			remoteInfo = TempToolDemo;
+		};
+		C63A64351E5440E000D014D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C63A64081E5440DF00D014D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C63A640F1E5440DF00D014D5;
+			remoteInfo = TempToolDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C63A64101E5440DF00D014D5 /* TempToolDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TempToolDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C63A64141E5440DF00D014D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C63A64161E5440DF00D014D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C63A64171E5440DF00D014D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C63A64191E5440DF00D014D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C63A641A1E5440DF00D014D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C63A641D1E5440DF00D014D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C63A641F1E5440DF00D014D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C63A64221E5440DF00D014D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C63A64241E5440DF00D014D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C63A64291E5440E000D014D5 /* TempToolDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempToolDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C63A642D1E5440E000D014D5 /* TempToolDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TempToolDemoTests.m; sourceTree = "<group>"; };
+		C63A642F1E5440E000D014D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C63A64341E5440E000D014D5 /* TempToolDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempToolDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C63A64381E5440E000D014D5 /* TempToolDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TempToolDemoUITests.m; sourceTree = "<group>"; };
+		C63A643A1E5440E000D014D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C63A64491E54428400D014D5 /* UI_Categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UI_Categories.h; sourceTree = "<group>"; };
+		C63A644B1E54428400D014D5 /* UIButton+BackgroundColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+BackgroundColor.h"; sourceTree = "<group>"; };
+		C63A644C1E54428400D014D5 /* UIButton+BackgroundColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BackgroundColor.m"; sourceTree = "<group>"; };
+		C63A644D1E54428400D014D5 /* UIButton+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Block.h"; sourceTree = "<group>"; };
+		C63A644E1E54428400D014D5 /* UIButton+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Block.m"; sourceTree = "<group>"; };
+		C63A644F1E54428400D014D5 /* UIButton+CountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CountDown.h"; sourceTree = "<group>"; };
+		C63A64501E54428400D014D5 /* UIButton+CountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CountDown.m"; sourceTree = "<group>"; };
+		C63A64511E54428400D014D5 /* UIButton+Indicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Indicator.h"; sourceTree = "<group>"; };
+		C63A64521E54428400D014D5 /* UIButton+Indicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Indicator.m"; sourceTree = "<group>"; };
+		C63A64531E54428400D014D5 /* UIButton+Submitting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Submitting.h"; sourceTree = "<group>"; };
+		C63A64541E54428400D014D5 /* UIButton+Submitting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Submitting.m"; sourceTree = "<group>"; };
+		C63A64561E54428400D014D5 /* UIDevice+Hardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Hardware.h"; sourceTree = "<group>"; };
+		C63A64571E54428400D014D5 /* UIDevice+Hardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Hardware.m"; sourceTree = "<group>"; };
+		C63A64591E54428400D014D5 /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		C63A645A1E54428400D014D5 /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
+		C63A645B1E54428400D014D5 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		C63A645C1E54428400D014D5 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		C63A645D1E54428400D014D5 /* UIImage+Capture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Capture.h"; sourceTree = "<group>"; };
+		C63A645E1E54428400D014D5 /* UIImage+Capture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Capture.m"; sourceTree = "<group>"; };
+		C63A645F1E54428400D014D5 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		C63A64601E54428400D014D5 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		C63A64611E54428400D014D5 /* UIImage+FileName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FileName.h"; sourceTree = "<group>"; };
+		C63A64621E54428400D014D5 /* UIImage+FileName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FileName.m"; sourceTree = "<group>"; };
+		C63A64631E54428400D014D5 /* UIImage+FX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FX.h"; sourceTree = "<group>"; };
+		C63A64641E54428400D014D5 /* UIImage+FX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FX.m"; sourceTree = "<group>"; };
+		C63A64651E54428400D014D5 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		C63A64661E54428400D014D5 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		C63A64671E54428400D014D5 /* UIImage+Merge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Merge.h"; sourceTree = "<group>"; };
+		C63A64681E54428400D014D5 /* UIImage+Merge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Merge.m"; sourceTree = "<group>"; };
+		C63A64691E54428400D014D5 /* UIImage+RemoteSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RemoteSize.h"; sourceTree = "<group>"; };
+		C63A646A1E54428400D014D5 /* UIImage+RemoteSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RemoteSize.m"; sourceTree = "<group>"; };
+		C63A646B1E54428400D014D5 /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		C63A646C1E54428400D014D5 /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		C63A646E1E54428400D014D5 /* UITextField+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Blocks.h"; sourceTree = "<group>"; };
+		C63A646F1E54428400D014D5 /* UITextField+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Blocks.m"; sourceTree = "<group>"; };
+		C63A64711E54428400D014D5 /* UITextView+PlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+PlaceHolder.h"; sourceTree = "<group>"; };
+		C63A64721E54428400D014D5 /* UITextView+PlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+PlaceHolder.m"; sourceTree = "<group>"; };
+		C63A64741E54428400D014D5 /* UIView+BlockGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BlockGesture.h"; sourceTree = "<group>"; };
+		C63A64751E54428400D014D5 /* UIView+BlockGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BlockGesture.m"; sourceTree = "<group>"; };
+		C63A64761E54428400D014D5 /* UIView+Constraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Constraints.h"; sourceTree = "<group>"; };
+		C63A64771E54428400D014D5 /* UIView+Constraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Constraints.m"; sourceTree = "<group>"; };
+		C63A64781E54428400D014D5 /* UIView+Find.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Find.h"; sourceTree = "<group>"; };
+		C63A64791E54428400D014D5 /* UIView+Find.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Find.m"; sourceTree = "<group>"; };
+		C63A647A1E54428400D014D5 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		C63A647B1E54428400D014D5 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		C63A647C1E54428400D014D5 /* UIView+Nib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Nib.h"; sourceTree = "<group>"; };
+		C63A647D1E54428400D014D5 /* UIView+Nib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Nib.m"; sourceTree = "<group>"; };
+		C63A647E1E54428400D014D5 /* UIView+Screenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Screenshot.h"; sourceTree = "<group>"; };
+		C63A647F1E54428400D014D5 /* UIView+Screenshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Screenshot.m"; sourceTree = "<group>"; };
+		C63A64801E54428400D014D5 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		C63A64811E54428400D014D5 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		C63A64831E54428400D014D5 /* UIViewController+MJPopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MJPopupViewController.h"; sourceTree = "<group>"; };
+		C63A64841E54428400D014D5 /* UIViewController+MJPopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MJPopupViewController.m"; sourceTree = "<group>"; };
+		C63A64851E54428400D014D5 /* UIViewController+TopBarMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TopBarMessage.h"; sourceTree = "<group>"; };
+		C63A64861E54428400D014D5 /* UIViewController+TopBarMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TopBarMessage.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C63A640D1E5440DF00D014D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63A64261E5440E000D014D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63A64311E5440E000D014D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C63A64071E5440DF00D014D5 = {
+			isa = PBXGroup;
+			children = (
+				C63A64121E5440DF00D014D5 /* TempToolDemo */,
+				C63A642C1E5440E000D014D5 /* TempToolDemoTests */,
+				C63A64371E5440E000D014D5 /* TempToolDemoUITests */,
+				C63A64111E5440DF00D014D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C63A64111E5440DF00D014D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C63A64101E5440DF00D014D5 /* TempToolDemo.app */,
+				C63A64291E5440E000D014D5 /* TempToolDemoTests.xctest */,
+				C63A64341E5440E000D014D5 /* TempToolDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C63A64121E5440DF00D014D5 /* TempToolDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C63A64161E5440DF00D014D5 /* AppDelegate.h */,
+				C63A64171E5440DF00D014D5 /* AppDelegate.m */,
+				C63A64191E5440DF00D014D5 /* ViewController.h */,
+				C63A641A1E5440DF00D014D5 /* ViewController.m */,
+				C63A64471E54428400D014D5 /* TempTool */,
+				C63A641C1E5440DF00D014D5 /* Main.storyboard */,
+				C63A641F1E5440DF00D014D5 /* Assets.xcassets */,
+				C63A64211E5440DF00D014D5 /* LaunchScreen.storyboard */,
+				C63A64241E5440DF00D014D5 /* Info.plist */,
+				C63A64131E5440DF00D014D5 /* Supporting Files */,
+			);
+			path = TempToolDemo;
+			sourceTree = "<group>";
+		};
+		C63A64131E5440DF00D014D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C63A64141E5440DF00D014D5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C63A642C1E5440E000D014D5 /* TempToolDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C63A642D1E5440E000D014D5 /* TempToolDemoTests.m */,
+				C63A642F1E5440E000D014D5 /* Info.plist */,
+			);
+			path = TempToolDemoTests;
+			sourceTree = "<group>";
+		};
+		C63A64371E5440E000D014D5 /* TempToolDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C63A64381E5440E000D014D5 /* TempToolDemoUITests.m */,
+				C63A643A1E5440E000D014D5 /* Info.plist */,
+			);
+			path = TempToolDemoUITests;
+			sourceTree = "<group>";
+		};
+		C63A64471E54428400D014D5 /* TempTool */ = {
+			isa = PBXGroup;
+			children = (
+				C63A64481E54428400D014D5 /* UIKit */,
+			);
+			path = TempTool;
+			sourceTree = "<group>";
+		};
+		C63A64481E54428400D014D5 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				C63A64491E54428400D014D5 /* UI_Categories.h */,
+				C63A644A1E54428400D014D5 /* UIButton */,
+				C63A64551E54428400D014D5 /* UIDevice */,
+				C63A64581E54428400D014D5 /* UIImage */,
+				C63A646D1E54428400D014D5 /* UITextField */,
+				C63A64701E54428400D014D5 /* UITextView */,
+				C63A64731E54428400D014D5 /* UIView */,
+				C63A64821E54428400D014D5 /* UIViewController */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		C63A644A1E54428400D014D5 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				C63A644B1E54428400D014D5 /* UIButton+BackgroundColor.h */,
+				C63A644C1E54428400D014D5 /* UIButton+BackgroundColor.m */,
+				C63A644D1E54428400D014D5 /* UIButton+Block.h */,
+				C63A644E1E54428400D014D5 /* UIButton+Block.m */,
+				C63A644F1E54428400D014D5 /* UIButton+CountDown.h */,
+				C63A64501E54428400D014D5 /* UIButton+CountDown.m */,
+				C63A64511E54428400D014D5 /* UIButton+Indicator.h */,
+				C63A64521E54428400D014D5 /* UIButton+Indicator.m */,
+				C63A64531E54428400D014D5 /* UIButton+Submitting.h */,
+				C63A64541E54428400D014D5 /* UIButton+Submitting.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		C63A64551E54428400D014D5 /* UIDevice */ = {
+			isa = PBXGroup;
+			children = (
+				C63A64561E54428400D014D5 /* UIDevice+Hardware.h */,
+				C63A64571E54428400D014D5 /* UIDevice+Hardware.m */,
+			);
+			path = UIDevice;
+			sourceTree = "<group>";
+		};
+		C63A64581E54428400D014D5 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				C63A64591E54428400D014D5 /* UIImage+Alpha.h */,
+				C63A645A1E54428400D014D5 /* UIImage+Alpha.m */,
+				C63A645B1E54428400D014D5 /* UIImage+animatedGIF.h */,
+				C63A645C1E54428400D014D5 /* UIImage+animatedGIF.m */,
+				C63A645D1E54428400D014D5 /* UIImage+Capture.h */,
+				C63A645E1E54428400D014D5 /* UIImage+Capture.m */,
+				C63A645F1E54428400D014D5 /* UIImage+Color.h */,
+				C63A64601E54428400D014D5 /* UIImage+Color.m */,
+				C63A64611E54428400D014D5 /* UIImage+FileName.h */,
+				C63A64621E54428400D014D5 /* UIImage+FileName.m */,
+				C63A64631E54428400D014D5 /* UIImage+FX.h */,
+				C63A64641E54428400D014D5 /* UIImage+FX.m */,
+				C63A64651E54428400D014D5 /* UIImage+GIF.h */,
+				C63A64661E54428400D014D5 /* UIImage+GIF.m */,
+				C63A64671E54428400D014D5 /* UIImage+Merge.h */,
+				C63A64681E54428400D014D5 /* UIImage+Merge.m */,
+				C63A64691E54428400D014D5 /* UIImage+RemoteSize.h */,
+				C63A646A1E54428400D014D5 /* UIImage+RemoteSize.m */,
+				C63A646B1E54428400D014D5 /* UIImage+RoundedCorner.h */,
+				C63A646C1E54428400D014D5 /* UIImage+RoundedCorner.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		C63A646D1E54428400D014D5 /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				C63A646E1E54428400D014D5 /* UITextField+Blocks.h */,
+				C63A646F1E54428400D014D5 /* UITextField+Blocks.m */,
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
+		C63A64701E54428400D014D5 /* UITextView */ = {
+			isa = PBXGroup;
+			children = (
+				C63A64711E54428400D014D5 /* UITextView+PlaceHolder.h */,
+				C63A64721E54428400D014D5 /* UITextView+PlaceHolder.m */,
+			);
+			path = UITextView;
+			sourceTree = "<group>";
+		};
+		C63A64731E54428400D014D5 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				C63A64741E54428400D014D5 /* UIView+BlockGesture.h */,
+				C63A64751E54428400D014D5 /* UIView+BlockGesture.m */,
+				C63A64761E54428400D014D5 /* UIView+Constraints.h */,
+				C63A64771E54428400D014D5 /* UIView+Constraints.m */,
+				C63A64781E54428400D014D5 /* UIView+Find.h */,
+				C63A64791E54428400D014D5 /* UIView+Find.m */,
+				C63A647A1E54428400D014D5 /* UIView+Frame.h */,
+				C63A647B1E54428400D014D5 /* UIView+Frame.m */,
+				C63A647C1E54428400D014D5 /* UIView+Nib.h */,
+				C63A647D1E54428400D014D5 /* UIView+Nib.m */,
+				C63A647E1E54428400D014D5 /* UIView+Screenshot.h */,
+				C63A647F1E54428400D014D5 /* UIView+Screenshot.m */,
+				C63A64801E54428400D014D5 /* UIView+Toast.h */,
+				C63A64811E54428400D014D5 /* UIView+Toast.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		C63A64821E54428400D014D5 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C63A64831E54428400D014D5 /* UIViewController+MJPopupViewController.h */,
+				C63A64841E54428400D014D5 /* UIViewController+MJPopupViewController.m */,
+				C63A64851E54428400D014D5 /* UIViewController+TopBarMessage.h */,
+				C63A64861E54428400D014D5 /* UIViewController+TopBarMessage.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C63A640F1E5440DF00D014D5 /* TempToolDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C63A643D1E5440E000D014D5 /* Build configuration list for PBXNativeTarget "TempToolDemo" */;
+			buildPhases = (
+				C63A640C1E5440DF00D014D5 /* Sources */,
+				C63A640D1E5440DF00D014D5 /* Frameworks */,
+				C63A640E1E5440DF00D014D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TempToolDemo;
+			productName = TempToolDemo;
+			productReference = C63A64101E5440DF00D014D5 /* TempToolDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C63A64281E5440E000D014D5 /* TempToolDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C63A64401E5440E000D014D5 /* Build configuration list for PBXNativeTarget "TempToolDemoTests" */;
+			buildPhases = (
+				C63A64251E5440E000D014D5 /* Sources */,
+				C63A64261E5440E000D014D5 /* Frameworks */,
+				C63A64271E5440E000D014D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C63A642B1E5440E000D014D5 /* PBXTargetDependency */,
+			);
+			name = TempToolDemoTests;
+			productName = TempToolDemoTests;
+			productReference = C63A64291E5440E000D014D5 /* TempToolDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C63A64331E5440E000D014D5 /* TempToolDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C63A64431E5440E000D014D5 /* Build configuration list for PBXNativeTarget "TempToolDemoUITests" */;
+			buildPhases = (
+				C63A64301E5440E000D014D5 /* Sources */,
+				C63A64311E5440E000D014D5 /* Frameworks */,
+				C63A64321E5440E000D014D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C63A64361E5440E000D014D5 /* PBXTargetDependency */,
+			);
+			name = TempToolDemoUITests;
+			productName = TempToolDemoUITests;
+			productReference = C63A64341E5440E000D014D5 /* TempToolDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C63A64081E5440DF00D014D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = gfy;
+				TargetAttributes = {
+					C63A640F1E5440DF00D014D5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C63A64281E5440E000D014D5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C63A640F1E5440DF00D014D5;
+					};
+					C63A64331E5440E000D014D5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C63A640F1E5440DF00D014D5;
+					};
+				};
+			};
+			buildConfigurationList = C63A640B1E5440DF00D014D5 /* Build configuration list for PBXProject "TempToolDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C63A64071E5440DF00D014D5;
+			productRefGroup = C63A64111E5440DF00D014D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C63A640F1E5440DF00D014D5 /* TempToolDemo */,
+				C63A64281E5440E000D014D5 /* TempToolDemoTests */,
+				C63A64331E5440E000D014D5 /* TempToolDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C63A640E1E5440DF00D014D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63A64231E5440DF00D014D5 /* LaunchScreen.storyboard in Resources */,
+				C63A64201E5440DF00D014D5 /* Assets.xcassets in Resources */,
+				C63A641E1E5440DF00D014D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63A64271E5440E000D014D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63A64321E5440E000D014D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C63A640C1E5440DF00D014D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63A648C1E54428400D014D5 /* UIDevice+Hardware.m in Sources */,
+				C63A641B1E5440DF00D014D5 /* ViewController.m in Sources */,
+				C63A648A1E54428400D014D5 /* UIButton+Indicator.m in Sources */,
+				C63A64971E54428400D014D5 /* UITextField+Blocks.m in Sources */,
+				C63A64A11E54428400D014D5 /* UIViewController+TopBarMessage.m in Sources */,
+				C63A649F1E54428400D014D5 /* UIView+Toast.m in Sources */,
+				C63A64881E54428400D014D5 /* UIButton+Block.m in Sources */,
+				C63A648B1E54428400D014D5 /* UIButton+Submitting.m in Sources */,
+				C63A64961E54428400D014D5 /* UIImage+RoundedCorner.m in Sources */,
+				C63A64871E54428400D014D5 /* UIButton+BackgroundColor.m in Sources */,
+				C63A649C1E54428400D014D5 /* UIView+Frame.m in Sources */,
+				C63A64941E54428400D014D5 /* UIImage+Merge.m in Sources */,
+				C63A64181E5440DF00D014D5 /* AppDelegate.m in Sources */,
+				C63A64951E54428400D014D5 /* UIImage+RemoteSize.m in Sources */,
+				C63A64151E5440DF00D014D5 /* main.m in Sources */,
+				C63A64A01E54428400D014D5 /* UIViewController+MJPopupViewController.m in Sources */,
+				C63A648F1E54428400D014D5 /* UIImage+Capture.m in Sources */,
+				C63A649D1E54428400D014D5 /* UIView+Nib.m in Sources */,
+				C63A64981E54428400D014D5 /* UITextView+PlaceHolder.m in Sources */,
+				C63A649E1E54428400D014D5 /* UIView+Screenshot.m in Sources */,
+				C63A648E1E54428400D014D5 /* UIImage+animatedGIF.m in Sources */,
+				C63A64931E54428400D014D5 /* UIImage+GIF.m in Sources */,
+				C63A64991E54428400D014D5 /* UIView+BlockGesture.m in Sources */,
+				C63A64921E54428400D014D5 /* UIImage+FX.m in Sources */,
+				C63A648D1E54428400D014D5 /* UIImage+Alpha.m in Sources */,
+				C63A649A1E54428400D014D5 /* UIView+Constraints.m in Sources */,
+				C63A64891E54428400D014D5 /* UIButton+CountDown.m in Sources */,
+				C63A649B1E54428400D014D5 /* UIView+Find.m in Sources */,
+				C63A64911E54428400D014D5 /* UIImage+FileName.m in Sources */,
+				C63A64901E54428400D014D5 /* UIImage+Color.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63A64251E5440E000D014D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63A642E1E5440E000D014D5 /* TempToolDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63A64301E5440E000D014D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63A64391E5440E000D014D5 /* TempToolDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C63A642B1E5440E000D014D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C63A640F1E5440DF00D014D5 /* TempToolDemo */;
+			targetProxy = C63A642A1E5440E000D014D5 /* PBXContainerItemProxy */;
+		};
+		C63A64361E5440E000D014D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C63A640F1E5440DF00D014D5 /* TempToolDemo */;
+			targetProxy = C63A64351E5440E000D014D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C63A641C1E5440DF00D014D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C63A641D1E5440DF00D014D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C63A64211E5440DF00D014D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C63A64221E5440DF00D014D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C63A643B1E5440E000D014D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C63A643C1E5440E000D014D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C63A643E1E5440E000D014D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TempToolDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zk.TempToolDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C63A643F1E5440E000D014D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TempToolDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zk.TempToolDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C63A64411E5440E000D014D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TempToolDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zk.TempToolDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TempToolDemo.app/TempToolDemo";
+			};
+			name = Debug;
+		};
+		C63A64421E5440E000D014D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TempToolDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zk.TempToolDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TempToolDemo.app/TempToolDemo";
+			};
+			name = Release;
+		};
+		C63A64441E5440E000D014D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TempToolDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zk.TempToolDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TempToolDemo;
+			};
+			name = Debug;
+		};
+		C63A64451E5440E000D014D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TempToolDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zk.TempToolDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TempToolDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C63A640B1E5440DF00D014D5 /* Build configuration list for PBXProject "TempToolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C63A643B1E5440E000D014D5 /* Debug */,
+				C63A643C1E5440E000D014D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C63A643D1E5440E000D014D5 /* Build configuration list for PBXNativeTarget "TempToolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C63A643E1E5440E000D014D5 /* Debug */,
+				C63A643F1E5440E000D014D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C63A64401E5440E000D014D5 /* Build configuration list for PBXNativeTarget "TempToolDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C63A64411E5440E000D014D5 /* Debug */,
+				C63A64421E5440E000D014D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C63A64431E5440E000D014D5 /* Build configuration list for PBXNativeTarget "TempToolDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C63A64441E5440E000D014D5 /* Debug */,
+				C63A64451E5440E000D014D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C63A64081E5440DF00D014D5 /* Project object */;
+}
